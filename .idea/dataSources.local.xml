@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails dako: development" uuid="2735c543-df90-4599-9ac0-bff9518b00f2">
+      <user-name>faffi-ubuntu</user-name>
+      <user-password>dfdedf93dfcedfc4dfc8df98dfc7dfdb</user-password>
+      <schema-pattern>dako_development.pg_catalog dako_development.public</schema-pattern>
+      <default-schemas>dako_development.pg_catalog dako_development.public</default-schemas>
+    </data-source>
+    <data-source name="Rails dako: test" uuid="8256a04a-f5bd-4e7d-a3a9-de647516e581">
+      <user-name>faffi-ubuntu</user-name>
+      <user-password>dfdedf93dfcedfc4dfc8df98dfc7dfdb</user-password>
+      <schema-pattern>dako_test.pg_catalog dako_test.public</schema-pattern>
+      <default-schemas>dako_test.pg_catalog dako_test.public</default-schemas>
+    </data-source>
+  </component>
+</project>

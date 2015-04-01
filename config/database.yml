@@ -1,0 +1,15 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: dako_development
+  pool: 5
+  username: faffi-ubuntu
+  password: t9dnb2mq
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: dako_test
+  pool: 5
+  username: faffi-ubuntu
+  password: t9dnb2mq

@@ -1,0 +1,91 @@
+// Place all the styles related to the Products controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.products{
+
+  table{
+    border-collapse: collapse;
+    width: 50%;
+  }
+
+  table tr td{
+    vertical-align: middle;
+  }
+
+  .list_image{
+    width: 100px;
+    height: 60px;
+  }
+  .list_description{
+    width: 70%;
+
+    dl{
+      margin: 0;
+    }
+
+    dt{
+      color: #313435;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    dd{
+      margin: 0;
+      font-size: 12px;
+      padding-left: 0.2em;
+    }
+  }
+
+  .list_actions{
+    font-size: x-small;
+    text-align: right;
+    padding-right: 0.2em;
+
+
+    a{
+      text-decoration: none;
+    }
+
+    a:hover{
+      color: #4539ff;
+      background: none;
+    }
+  }
+
+  .list_color_1{
+    background: rgb(254,252,234); /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: -moz-linear-gradient(top,  rgba(254,252,234,1) 0%, rgba(241,218,54,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(254,252,234,1)), color-stop(100%,rgba(241,218,54,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(254,252,234,1) 0%,rgba(241,218,54,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(254,252,234,1) 0%,rgba(241,218,54,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(254,252,234,1) 0%,rgba(241,218,54,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(254,252,234,1) 0%,rgba(241,218,54,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', endColorstr='#f1da36',GradientType=0 ); /* IE6-8 */
+
+  }
+
+  .list_color_2{
+    background: #d2ff52; /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: -moz-linear-gradient(top,  #d2ff52 0%, #91e842 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d2ff52), color-stop(100%,#91e842)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #d2ff52 0%,#91e842 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #d2ff52 0%,#91e842 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #d2ff52 0%,#91e842 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #d2ff52 0%,#91e842 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', endColorstr='#91e842',GradientType=0 ); /* IE6-8 */
+
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  a:hover{
+    color: #4d3b57;
+    background: none;
+  }
+
+}
