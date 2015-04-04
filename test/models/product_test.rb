@@ -32,12 +32,12 @@ class ProductTest < ActiveSupport::TestCase
                           image_url: 'tmpImageUrl.png')
     product.price = -1;
     assert product.invalid?
-    assert_equal ['must be greater than or equal to 0.01'],
+    assert_equal ['The number must be greater then 0.01'],
         product.errors[:price]
 
     product.price = 0;
     assert product.invalid?
-    assert_equal ['must be greater than or equal to 0.01'],
+    assert_equal ['The number must be greater then 0.01'],
         product.errors[:price]
 
     product.price = 1;
@@ -63,7 +63,7 @@ class ProductTest < ActiveSupport::TestCase
                           image_url: products(:yason).description,
                           price: 9.99)
     assert product.invalid?
-    assert_equal ['has already been taken'],
+    assert_equal ['The title has already been taken'],
         product.errors[:title]
                                 #assert_equal [I18n.translate('activerecord.errors.messages.taken')],
                                 #product.errors[:title]
