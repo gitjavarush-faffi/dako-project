@@ -7,8 +7,22 @@
   <%= csrf_meta_tags %>
 </head>
 <body class='<%= controller.controller_name %>'>
-
-<%= yield %>
-
+<div id="top"><%= image_tag('dako.png', id:'logo') %></div>
+<div class="nav">
+  <ul>
+    <li><a href="">Home</a></li>
+    <li><a href="">Learn</a></li>
+    <li><a href="">About us</a></li>
+    <li><a href="">Galary</a></li>
+  </ul>
+</div>
+<div id="columns">
+  <div id="main">
+    <%= yield %>
+  </div>
+  <div id="side">
+  </div>
+</div>
+<div id="footer"></div>
 </body>
 </html>

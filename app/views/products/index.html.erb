@@ -9,7 +9,7 @@
     <td class="list_description">
       <dl>
         <dt><%= product.title %></dt>
-        <dd><%= truncate(strip_tags(product.description), length: 80) %></dd>
+        <dd><%= sanitize(product.description, tags:%w{p em}).truncate(200, :separator => " ").html_safe %></dd>
       </dl>
     </td>
     <td class="list_actions">

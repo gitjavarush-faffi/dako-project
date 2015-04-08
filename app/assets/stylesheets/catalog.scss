@@ -1,0 +1,49 @@
+// Place all the styles related to the Catalog controller here.
+// They will automatically be included in application.css.scss.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+$colorh1: mediumslateblue;
+$colorh3: brown;
+
+.catalog{
+  h1{
+    margin: 0;
+    color: $colorh1;
+    border-bottom: 3px groove $colorh1;
+    padding-bottom: 0.2em;
+  }
+  .entry{
+    overflow: auto;
+    margin-top: 1em;
+    border-bottom: 0.2em dotted $colorh1;
+    min-height: 100px;
+
+    img{
+      width: 89px;
+      height: 60px;
+      margin-right: 5px;
+      margin-bottom: 5px;
+      position: absolute;
+      float: left;
+    }
+
+    h3{
+      margin-left: 100px;
+      margin-top: 0px;
+      margin-bottom: 2px;
+      font: 120% sans-serif;
+      color: $colorh3;
+    }
+
+    p, div.price_line{
+      margin-left: 100px;
+      margin-top: 0.5em;
+      margin-bottom: 0.8em;
+    }
+
+    .price{
+      color: #44a;
+      font-weight: bold;
+      margin-right: 3em;
+    }
+  }
+}
